@@ -31,11 +31,13 @@
 
 
 
-var wikiURL = "http://http://en.wikipedia.org/w/api.php?action=query&format=json";
+
 //?api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&tag=cats"
 // var queryURL = "https://api.indeedassessments.com/v1/";
-var youtubeURL = "https://www.googleapis.com/youtube/v3/channels?api_key=AIzaSyAJqO0e_xPV3v6dOOSCl7U2OUNGXiSvSo0";
+// var youtubeURL = "https://www.googleapis.com/youtube/v3/channels?api_key=AIzaSyAJqO0e_xPV3v6dOOSCl7U2OUNGXiSvSo0";
 //var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=BkaUZZWcFij6J7AoQj3WtPb1R2p9O6V9&tag=cats";
+
+var wikiURL = "http://http://en.wikipedia.org/w/api.php?action=query&format=json";
 
 $.ajax({
     url: wikiURL,
